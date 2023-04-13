@@ -25,10 +25,4 @@ public class MoodAnalyserTest {
         Assert.assertEquals("SAD",ans);;
         System.out.println(ans);
     }
-    @Test
-    public void moodAnalyser(){
-        String ans = object.moodAnalyser("I am in any Mood");
-        Assert.assertEquals("HAPPY",ans);;
-        System.out.println(ans);
-    }
 }

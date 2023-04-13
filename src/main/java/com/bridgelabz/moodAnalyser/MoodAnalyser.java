@@ -1,5 +1,4 @@
 package com.bridgelabz.moodAnalyser;
-
 public class MoodAnalyser {
     private String message;
     public MoodAnalyser() {
