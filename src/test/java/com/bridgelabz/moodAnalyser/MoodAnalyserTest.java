@@ -1,6 +1,5 @@
 package com.bridgelabz.moodAnalyser;
 import org.junit.*;
-
 public class MoodAnalyserTest {
     @BeforeClass
     public static void show_msg_before_all_test_case (){
@@ -21,8 +20,9 @@ public class MoodAnalyserTest {
     }
     @Test
     public void moodAnalyser(){
-        String ans = object.moodAnalyser("I am in Happy Mood");
-        Assert.assertEquals("SAD",ans);;
+        String ans = object.moodAnalyser();
+        Assert.assertEquals("HAPPY",ans);;
         System.out.println(ans);
     }
 }
+
